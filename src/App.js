@@ -14,8 +14,8 @@ class App extends Component {
 
           <div className='container'>
             
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-              <a className="navbar-brand" href="https://github.com/klayne1129" target="_blank">
+            <nav className="navbar navbar-expand-md navbar-light bg-light">
+              <a className="navbar-brand" href="https://github.com/klayne1129" target="_blank" rel="noopener noreferrer">
                 <img src={logo} width="30" alt="github.com/klayne1129"/>
               </a>
               <Link to='/' className="navbar-brand">MERN-Stack Todo App</Link>
@@ -43,3 +43,5 @@ class App extends Component {
   }
 }
 export default App;
+
+//34:49 minute mark ep1
